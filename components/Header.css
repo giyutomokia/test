@@ -1,0 +1,39 @@
+/* Header.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Navbar spans full width */
+    height: 160px; /* Adjust height as needed */
+    background-color: navy;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .greeting {
+    margin-left: 60px;
+  }
+  
+  .right-menu {
+    display: flex;
+    align-items: center;
+    margin-right :30px;
+  }
+  
+  .icon-with-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-with-text p {
+    margin-left: 5px;
+  }
+  .left-menu > *:not(:last-child),
+.right-menu > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-with-text:last-child {
+  margin-left: 20px;
+}

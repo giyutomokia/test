@@ -1,0 +1,37 @@
+/* FileCard.css */
+
+.file-card {
+    position: absolute; /* Position the FileCards absolutely */
+    top: 19%; /* Position the FileCards 25% from the top of the parent container */
+    width: 150px;
+    right: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center;
+    align-items: center;
+    background-color: #fff8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-card:nth-child(1) {
+    left: 4%; /* Position the first FileCard 10% from the left edge of the parent container */
+  }
+  
+  .file-card:nth-child(2) {
+    left: 20%; /* Position the second FileCard 30% from the left edge of the parent container */
+  }
+  
+  .file-card:nth-child(3) {
+    left: 36%; /* Position the third FileCard 50% from the left edge of the parent container */
+  }
+  
+  .file-card:nth-child(4) {
+    left: 52%; /* Position the fourth FileCard 70% from the left edge of the parent container */
+  }
+  
+  .file-card:nth-child(5) {
+    left: 68%; /* Position the fifth FileCard 90% from the left edge of the parent container */
+  }
+  

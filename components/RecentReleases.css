@@ -1,0 +1,151 @@
+/* RecentReleases.css */
+
+.recent-releases-container {
+    position: absolute;
+    top: 240px;
+    right: 20px;
+    width:20%;
+  }
+  
+  .recent-releases-header {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .updates-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .update {
+    margin-bottom: 20px;
+  }
+  
+  .update-date {
+    font-weight: bold;
+  }
+  
+  .update-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .update-description {
+    font-size: 16px;
+  }
+  
+  .source-links {
+    margin-top: 20px;
+  }
+  
+  .view-more-link {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .view-more-link:hover {
+    text-decoration: underline;
+  }
+  /* Release.css */
+
+/* Styles for the RecentReleases container */
+.recent-releases-container {
+    width: 20%; /* Decrease the width to 30% */
+    margin-top: 20px; /* Move the RecentReleases down */
+    margin-left: 60px;
+    padding:20px; /* Add some gap between the Carousel and RecentReleases */
+  }
+  
+  /* Styles for the header of RecentReleases */
+  .recent-releases-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the list of updates */
+  .recent-releases-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styles for each update item */
+  .recent-release-item {
+    margin-bottom: 20px; /* Add some space between each update */
+  }
+  
+  /* Styles for the date of each update */
+  .recent-release-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the title of each update */
+  .recent-release-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the description of each update */
+  .recent-release-description {
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the source links */
+  .recent-release-source {
+    color: blue;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the View More button */
+  .view-more-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the View More button on hover */
+  .view-more-btn:hover {
+    background-color: darkblue;
+  }
+  
+  /* Add more styles as needed */
+  h2 {
+    text-align: center;
+  }
+  
+  .country-selector {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .flag-icon {
+    margin-right: 5px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px; /* Adjust thickness of the line as needed */
+    background-color: #ccc; /* Color of the dots */
+    background-image: radial-gradient(circle, #040404 10%, transparent 10%); /* Create circle dots */
+    background-size: 100% 30px; /* Adjust the size of the dots as needed */
+    background-position: center; /* Position the dots at the center */
+  }
+  
+  
+  /* Add more CSS styles as needed */
+  
